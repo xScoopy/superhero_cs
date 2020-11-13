@@ -16,5 +16,10 @@ class Ability:
 
 if __name__ == "__main__":
     ability = Ability("Debugging Ability",20)
-    print(ability.name)
-    print(ability.attack())
+    ability2 = Ability("smack jackie", 30)
+    dmg1 = ability.attack()
+    dmg2 = ability2.attack()
+    print(dmg1)
+    print(dmg2)
+    print(dmg1 + dmg2)
+   
