@@ -68,3 +68,10 @@ class Team:
                 living_opponents.remove(hero2)
                 living_heroes.remove(hero1)
 
+
+if __name__ == "__main__":
+    team = Team("Team One")
+    team.add_hero("Jeremiah")
+    team.add_hero("Jackie")
+    team.add_hero("Aldrin")
+    team.view_all_heroes()
